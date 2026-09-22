@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arianna Ganoza | Marketing & Data Portfolio</title>
+<meta name="description" content="Portafolio profesional de Arianna Ganoza — Marketing, Digital, Content & Data.">
+<style>
+:root{
+  --bg:#f7f5f1; --text:#171717; --muted:#666; --card:#fff;
+  --line:#dedbd5; --accent:#111;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:rgba(247,245,241,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{max-width:1050px;margin:auto;padding:17px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:700;letter-spacing:.04em}
+nav a{color:var(--text);text-decoration:none;margin-left:24px;font-size:14px}
+.container{max-width:1050px;margin:auto;padding:0 24px}
+.hero{min-height:76vh;display:flex;align-items:center;padding:90px 0 70px}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--muted);font-weight:700}
+h1{font-size:clamp(48px,8vw,88px);line-height:.95;margin:16px 0 24px;letter-spacing:-.055em;max-width:900px}
+.hero p{font-size:20px;max-width:690px;color:#444}
+.buttons{margin-top:32px;display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 20px;border:1px solid var(--text);text-decoration:none;color:var(--text);font-size:14px;font-weight:700}
+.btn.primary{background:var(--text);color:#fff}
+section{padding:82px 0;border-top:1px solid var(--line)}
+.section-title{font-size:13px;text-transform:uppercase;letter-spacing:.14em;margin-bottom:30px;font-weight:700}
+.about{display:grid;grid-template-columns:1fr 1.7fr;gap:60px}
+.about p{font-size:20px;margin-top:0}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}
+.tag{border:1px solid var(--line);padding:8px 12px;font-size:13px;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);padding:28px;min-height:210px}
+.card h3{margin:0 0 7px;font-size:21px}
+.card .meta{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.card p{color:#555;font-size:15px}
+.data{background:#111;color:#fff}
+.data .section-title{color:#bbb}
+.data-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#444;border:1px solid #444}
+.metric{background:#111;padding:26px}
+.metric strong{display:block;font-size:29px;margin-bottom:5px}
+.metric span{font-size:13px;color:#bbb}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skill{padding:22px;background:#fff;border:1px solid var(--line)}
+.skill h3{font-size:16px;margin:0 0 10px}
+.skill p{margin:0;color:#555;font-size:14px}
+.contact{text-align:center;padding:100px 0}
+.contact h2{font-size:48px;letter-spacing:-.04em;margin:0 0 15px}
+footer{padding:25px 0;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+@media(max-width:750px){
+  nav .links{display:none}
+  .hero{min-height:70vh;padding-top:60px}
+  .about,.grid,.skills{grid-template-columns:1fr}
+  .data-grid{grid-template-columns:repeat(2,1fr)}
+  .contact h2{font-size:38px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav">
+    <div class="logo">ARIANNA GANOZA</div>
+    <div class="links">
+      <a href="#about">Sobre mí</a>
+      <a href="#experience">Experiencia</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#data">Data</a>
+      <a href="#contact">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+<div class="container">
+<section class="hero" style="border-top:0">
+  <div>
+    <div class="eyebrow">Marketing · Data · Digital · Insights</div>
+    <h1>Marketing con propósito.<br>Datos para decidir.</h1>
+    <p>
+      Soy Arianna Ganoza, estudiante de Marketing en la Universidad de Lima y perteneciente al Quinto Superior.
+      Me interesa combinar estrategia, creatividad y análisis para entender audiencias,
+      interpretar información y convertirla en oportunidades de marketing.
+    </p>
+    <div class="buttons">
+      <a class="btn primary" href="mailto:ariana18gg@gmail.com">Contactarme</a>
+      <a class="btn" href="https://www.linkedin.com/in/ariannaganoza/" target="_blank">LinkedIn ↗</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about">
+    <div><div class="section-title">01 · Sobre mí</div></div>
+    <div>
+      <p>
+        Estudiante de Marketing de la Universidad de Lima, perteneciente al
+        Quinto Superior, con experiencia en creación de contenido, campañas
+        digitales, coordinación y colaboración con marcas.
+      </p>
+      <p>
+        Mi interés está en <strong>Data & Analytics, análisis de audiencias, comportamiento del consumidor y medios digitales</strong>.
+        Busco desarrollar una mirada analítica que permita pasar de la información a insights
+        útiles para las decisiones de marketing.
+      </p>
+      <div class="tags">
+        <span class="tag">Marketing Digital</span><span class="tag">Data & Analytics</span>
+        <span class="tag">Consumer Insights</span><span class="tag">Social Media</span>
+        <span class="tag">Content Strategy</span><span class="tag">Influencer Marketing</span><span class="tag">Excel</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="section-title">02 · Experiencia</div>
+  <div class="grid">
+    <article class="card">
+      <div class="meta">Mar 2026 — Ago 2026</div>
+      <h3>Oechsle</h3>
+      <p>Creación de contenido y participación en campañas de marketing para retail. Coordinación de entregables con equipos y agencias, ejecución para Instagram y TikTok y seguimiento de resultados de contenido.</p>
+    </article>
+    <article class="card">
+      <div class="meta">Sep 2024 — Mar 2025</div>
+      <h3>El Pino de Cardal</h3>
+      <p>Co-coordinación de marketing, apoyo en campañas y contenido para redes sociales e iniciativas orientadas al crecimiento y posicionamiento de la marca.</p>
+    </article>
+    <article class="card">
+      <div class="meta">Campañas de marca</div>
+      <h3>Content Creator</h3>
+      <p>Colaboración con marcas como ISDIN, L'Oréal, Pandora, Adidas y MAC. Desarrollo de contenido a partir de briefs, adaptación de mensajes y coordinación de entregables.</p>
+    </article>
+    <article class="card">
+      <div class="meta">Abr 2025 — Nov 2025</div>
+      <h3>Operación Sonrisa · Tesorera</h3>
+      <p>Organización y seguimiento de actividades de recaudación de fondos, coordinación de iniciativas y gestión de responsabilidades dentro de un equipo.</p>
+    </article>
+  </div>
+</section>
+
+
+<section id="projects">
+  <div class="section-title">03 · Proyectos seleccionados</div>
+  <div class="grid">
+    <article class="card">
+      <div class="meta">Investigación · Marketing</div>
+      <h3>Marketing predictivo e IA</h3>
+      <p>Investigación académica sobre Inteligencia Artificial en los negocios, con foco en cómo el marketing predictivo puede utilizar información para anticipar comportamientos y apoyar decisiones.</p>
+    </article>
+    <article class="card">
+      <div class="meta">Investigación · Consumo</div>
+      <h3>Heineken 0.0</h3>
+      <p>Análisis de mercado y estrategia de marketing alrededor de Heineken 0.0, considerando consumidor, competencia, posicionamiento y contexto del mercado peruano.</p>
+    </article>
+    <article class="card">
+      <div class="meta">Producción · Costos</div>
+      <h3>FLADA</h3>
+      <p>Proyecto de emprendimiento de un cojín ergonómico de viaje. Desarrollo de costos, producción, inventario PEPS, punto de equilibrio y propuesta de negocio.</p>
+    </article>
+    <article class="card">
+      <div class="meta">Consumer Insights</div>
+      <h3>Audiencias & comportamiento</h3>
+      <p>Aplicación de herramientas de investigación y análisis de consumidores para comprender segmentos, necesidades, hábitos y oportunidades de comunicación.</p>
+    </article>
+  </div>
+</section>
+<section id="data" class="data">
+  <div class="section-title">04 · Mi enfoque en Data</div>
+  <div class="data-grid">
+    <div class="metric"><strong>Audiencias</strong><span>Segmentación y comprensión del consumidor</span></div>
+    <div class="metric"><strong>Digital</strong><span>Contenido, social media y medios digitales</span></div>
+    <div class="metric"><strong>Insights</strong><span>Transformar información en hallazgos de marketing</span></div>
+    <div class="metric"><strong>Excel</strong><span>Nivel intermedio · análisis y organización de información</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">05 · Competencias</div>
+  <div class="skills">
+    <div class="skill"><h3>Marketing</h3><p>Estrategia digital · Contenido · Social Media · Influencer Marketing · Consumer Insights</p></div>
+    <div class="skill"><h3>Herramientas</h3><p>Microsoft Excel · Canva · CapCut · Instagram · TikTok</p></div>
+    <div class="skill"><h3>Fortalezas</h3><p>Pensamiento analítico · Comunicación · Organización · Trabajo en equipo · Adaptabilidad</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">06 · Liderazgo</div>
+  <div class="card">
+    <div class="meta">Abr 2025 — Nov 2025</div>
+    <h3>Operación Sonrisa · Tesorera</h3>
+    <p>Organización de actividades de recaudación de fondos y coordinación de iniciativas de apoyo.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="section-title">07 · Contacto</div>
+  <h2>Hablemos.</h2>
+  <p>Disponible para oportunidades en Marketing, Data, Digital, Media e Insights.</p>
+  <div class="eyebrow" style="margin-top:22px">VML · WPP · Marketing & Data</div>
+  <div class="buttons" style="justify-content:center">
+    <a class="btn primary" href="mailto:ariana18gg@gmail.com">ariana18gg@gmail.com</a>
+    <a class="btn" href="https://www.linkedin.com/in/ariannaganoza/" target="_blank">LinkedIn ↗</a>
+  </div>
+</section>
+</div>
+</main>
+
+<footer>
+  <div class="container">© 2026 Arianna Ganoza · Marketing Portfolio</div>
+</footer>
+</body>
+</html>
